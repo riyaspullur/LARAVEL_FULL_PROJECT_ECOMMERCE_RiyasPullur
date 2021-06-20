@@ -14,19 +14,13 @@
 <body>
 
 
-    <script>
-        $(document).ready(function(){
-
-
-            $("button").click(function()
-            {
-                alert("all set")
-            })
-        }
-        
-        )
+    {{View::make('header')}}
     
-    </script>
+     @yield('content')
+
+     
+    {{View::make('footer')}}
+        
 
 
 
@@ -41,4 +35,10 @@
 
     
 </body>
+<style>
+    .custom-login{
+        height: 500px;
+        padding-top: 100px;
+    }
+</style>
 </html>
