@@ -40,5 +40,31 @@
         height: 500px;
         padding-top: 100px;
     }
+    .passwordclass:hover {
+        border-color: white;
+      border-width: 5px;
+        
+        opacity:5.0;
+
+    }
+    .emailclass:hover {
+        border-color: white;
+      border-width: 5px;
+        
+        opacity:5.0;
+    }
+    .loginbackground{
+        /* background-image: url("paper.gif"); */
+        margin-top: 10px;
+        background-color: black;
+    }
+    .searchcolumn:hover{
+
+        border-color: white;
+        border-width: 5px;
+    }
+    /* .footerclass{
+        
+    } */
 </style>
 </html>

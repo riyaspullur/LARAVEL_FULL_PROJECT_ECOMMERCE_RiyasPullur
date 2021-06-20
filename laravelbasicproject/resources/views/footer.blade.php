@@ -1,4 +1,4 @@
-<div class = "panel panel-default">
+<div class = "footerclass panel panel-default">
     <div class="panel-body">
         panelcontant
     </div>
